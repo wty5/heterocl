@@ -2,7 +2,6 @@ import heterocl as hcl
 import numpy as np
 import pytest
 
-
 def test_dtype_basic_uint():
     def _test_dtype(dtype):
         hcl.init(dtype)
